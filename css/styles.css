@@ -1,29 +1,152 @@
-.intro-section{
-    background-color: #2E2F42;
+.logo{
+    font-family: "Raleway";
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03;
+    text-transform: uppercase;
+    color: #4d5ae5;
+}
+.span{
+    color: #2e2f42;
+}
+a {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    text-decoration: none;
+}
+a:hover,
+a:focus{
+    color:#404bbf;
+}
+.contact-address {
+    font-style: normal;
 }
 
-.intro-section h1{
+.intro-section{
+    background-color: #2E2F42;
+    color: #ffffff;
     font-size: 56px;
     line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02;
-    color:  #ffffff;
 }
-
-.intro-button{
+.intro-button {
     background-color: #4D5AE5;
-    color: #ffffff;
+    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
-    cursor: pointer;
+    line-height: 1.5;
+    letter-spacing: 0.04;
+    color: #ffffff;
+    cursor: pointer
 }
-.intro-button:hover{
-    background-color: #404BBF;
-}
+.intro-button:hover,
 .intro-button:focus{
     background-color: #404BBF;
 }
 
-.span{
+.about-section h3{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02;
+    color: #2E2F42;
+}
+.about-section p{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02;
+    color: #434455;
+}
+.our-team{
+    background-color: #f4f4fd;
+}
+.our-team h2{
+    font-size: 36px;           
+    line-height: 1.11;         
+    text-align: center;        
+    letter-spacing: 0.02em;    
+    text-transform: capitalize;
+}
+.our-team h3{
+    background-color: #FFFFFF;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
     color: #2e2f42;
+    font-size: 16px;
+    color: #434455;
+}
+.designer-role{
+    font-size: 16px;
+    ine-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+.frontend_developer{
+    font-size: 16px;
+    ine-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+.camila-garcia{
+    font-size: 16px;
+    ine-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+.daniel-wilson{
+    font-size: 16px;
+    ine-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+.portfolio h2{
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+.our-portfolio h3{
+    background-color: #FFFFFF;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+.our-portfolio p{
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+.footer{
+    background-color: #2e2f42;
+}
+.footer .logo{
+    font-family: "Raleway";
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03;
+    text-transform: uppercase;
+    color: #4d5ae5;
+}
+.footer .span {
+    color: #2e2f42;
+}
+.footer-end{
+    line-height: 1.5;  
+    color: #F4F4FD; 
+    letter-spacing: 0.02em;
 }
