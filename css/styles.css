@@ -19,14 +19,14 @@ body {
     flex-grow: 1;
     border-bottom: 2px solid #434455;
 }
-nav .web_logo{
+nav .logo_style-default{
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #434455;
+    color: #4d5ae5;
 }
 .span{
     color: #2e2f42;
@@ -48,12 +48,12 @@ a:focus{
 }
 
 .intro-section{
-    background-color: #2E2F42;
-    color: #ffffff;
     font-size: 56px;
     line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
+    background-color: #2E2F42;
+    color: #ffffff;
 }
 .intro-button {
     background-color: #4D5AE5;
@@ -61,7 +61,7 @@ a:focus{
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.043em;
+    letter-spacing: 0.04em;
     color: #ffffff;
     cursor: pointer
 }
@@ -70,14 +70,65 @@ a:focus{
     background-color: #404BBF;
 }
 
-.about-section h3{
+.strategy-heading h3{
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2E2F42;
 }
-.about-section p{
+.strategy-description p{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+.strategy-heading, 
+.strategy-description {
+    letter-spacing: 0.02em;
+}
+.punctuality-heading h3{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+.punctuality-description p{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+.punctuality-heading, 
+.punctuality-description {
+    letter-spacing: 0.02em;
+}
+.diligence-heading h3{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+.diligence-description p{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+.diligence-heading, 
+.diligence-description {
+    letter-spacing: 0.02em;
+}
+.technologies-heading h3{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+.technologies-description p{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -96,16 +147,17 @@ a:focus{
     text-align: center;        
     letter-spacing: 0.02em;    
     text-transform: capitalize;
+    color: #2e2f42;
 }
-.our-team h3{
-    background-color: #FFFFFF;
+.mark-guerrero{
+    background-color: #FFFFFF; 
+}
+.designer-mark{
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    font-size: 16px;
-    color: #434455;
 }
 .designer-role{
     font-size: 16px;
@@ -113,25 +165,25 @@ a:focus{
     letter-spacing: 0.02em;
     color: #434455;
 }
-.designer-mark{
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2e2f42
+.tom-ford{
+    background-color: #FFFFFF;
 }
 .frontend-tom{
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: #2e2f42
+    color: #2e2f42;
 }
 .frontend_developer{
     font-size: 16px;
-    ine-height: 1.5;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+}
+
+.camila-garcia{
+    background-color: #FFFFFF;
 }
 .marketing-camila{
     font-weight: 500;
@@ -140,11 +192,14 @@ a:focus{
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
-.camila-garcia{
+.marketing-role{
     font-size: 16px;
-    ine-height: 1.5;
+    line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: #434455; 
+}
+.daniel-wilson{
+    background-color: #FFFFFF;
 }
 
 .designer-daniel{
@@ -156,9 +211,9 @@ a:focus{
 }
 .daniel-wilson{
     font-size: 16px;
-    ine-height: 1.5;
+    line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: #434455; 
 }
 ul {
     list-style-type: none;
@@ -169,7 +224,8 @@ ul {
     line-height: 1.11;
     text-align: center;
     letter-spacing: 0.02em;
-    color: #2e2f42;
+    text-transform: capitalize;
+    color: #2e2f42;   
 }
 .banking_about{
     background-color: #FFFFFF;
@@ -179,11 +235,83 @@ ul {
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
-.our-portfolio p{
+.banking_app{
+    font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
 }
+.cashless-payment-title{
+    background-color: #FFFFFF;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;   
+}
+.cashless-payment-description{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+.meditation-app-title{
+    background-color: #FFFFFF;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42; 
+}
+.meditation-app-description{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;   
+}
+.taxi-service-title{
+    background-color: #FFFFFF;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42; 
+}
+.taxi-service-description{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+.screen-illustrations-title{
+    background-color: #FFFFFF;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42; 
+}
+.screen-illustrations-description{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455; 
+}
+.online-curses-title{
+    background-color: #FFFFFF;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42; 
+}
+.online-curses-description{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;    
+}
+
 .footer{
     background-color: #2e2f42;
 }
@@ -196,7 +324,7 @@ ul {
     text-transform: uppercase;
     color: #4d5ae5;
 }
-.footer .span {
+.second-span{
     color: #2e2f42;
 }
 .footer-end{
