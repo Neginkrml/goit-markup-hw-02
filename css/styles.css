@@ -1,25 +1,4 @@
-body {
-    font-family: 'Roboto', sans-serif;
-    color: #434455;
-    background-color: #FFFFFF;
-    position: relative;
-    width: 100%;
-    height: 100vh;
-    left: 0;
-    top: 0;
-    box-sizing: border-box;
-    display: flex;
-    align-items: center;
-    padding: 20px;
-    flex-direction: column;
-    gap: 10px;
-    border-radius: 8px;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-    order: 0;
-    flex-grow: 1;
-    border-bottom: 2px solid #434455;
-}
-nav .logo_style-default{
+nav .logo_style{
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -36,7 +15,7 @@ a {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #2e2f42;
+    color: #434455;
     text-decoration: none;
 }
 a:hover,
@@ -46,13 +25,11 @@ a:focus{
 .contact-adress {
     font-style: normal;
 }
-
-.intro-section{
+.effective-solutions{
     font-size: 56px;
     line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
-    background-color: #2E2F42;
     color: #ffffff;
 }
 .intro-button {
@@ -70,72 +47,72 @@ a:focus{
     background-color: #404BBF;
 }
 
-.strategy-heading h3{
+.strategy-title{
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: #2E2F42;
+    color: #2e2f42;
 }
-.strategy-description p{
+.strategy-description{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
 }
-.strategy-heading, 
+.strategy-title, 
 .strategy-description {
     letter-spacing: 0.02em;
 }
-.punctuality-heading h3{
+.punctuality-title{
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: #2E2F42;
+    color: #2e2f42;
 }
-.punctuality-description p{
+.punctuality-description{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
 }
-.punctuality-heading, 
-.punctuality-description {
+.punctuality-title, 
+.punctuality-description{
     letter-spacing: 0.02em;
 }
-.diligence-heading h3{
+.diligence-title{
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: #2E2F42;
+    color: #2e2f42;
 }
-.diligence-description p{
+.diligence-description{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
 }
-.diligence-heading, 
-.diligence-description {
+.diligence-title, 
+.diligence-description{
     letter-spacing: 0.02em;
 }
-.technologies-heading h3{
+.technologies-title{
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: #2E2F42;
+    color: #2e2f42;
 }
-.technologies-description p{
+.technologies-description{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
 }
-.strategy-heading, 
-.strategy-description {
+.strategy-title, 
+.strategy-description{
     letter-spacing: 0.02em;
 }
 .our-team{
