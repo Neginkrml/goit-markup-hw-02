@@ -15,12 +15,23 @@ a {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: #2e2f42;
     text-decoration: none;
 }
 a:hover,
 a:focus{
     color:#404bbf;
+}
+.menu-li{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+.menu-li:hover,
+.menu-li:focus{
+    color:#404bbf;   
 }
 .contact-adress {
     font-style: normal;
@@ -46,73 +57,24 @@ a:focus{
 .intro-button:focus{
     background-color: #404BBF;
 }
-
-.strategy-title{
+.intro-section{
+    background-color: #2e2f42;
+}
+.about-title{
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
-.strategy-description{
+.about-description{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
 }
-.strategy-title, 
-.strategy-description {
-    letter-spacing: 0.02em;
-}
-.punctuality-title{
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-}
-.punctuality-description{
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-}
-.punctuality-title, 
-.punctuality-description{
-    letter-spacing: 0.02em;
-}
-.diligence-title{
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-}
-.diligence-description{
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-}
-.diligence-title, 
-.diligence-description{
-    letter-spacing: 0.02em;
-}
-.technologies-title{
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-}
-.technologies-description{
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-}
-.strategy-title, 
-.strategy-description{
+.about-title, 
+.about-description {
     letter-spacing: 0.02em;
 }
 .our-team{
@@ -126,71 +88,21 @@ a:focus{
     text-transform: capitalize;
     color: #2e2f42;
 }
-.mark-guerrero{
+.team-employee{
     background-color: #FFFFFF; 
 }
-.designer-mark{
+.employee-name{
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
-.designer-role{
+.employee-role{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-}
-.tom-ford{
-    background-color: #FFFFFF;
-}
-.frontend-tom{
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-}
-.frontend_developer{
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-}
-
-.camila-garcia{
-    background-color: #FFFFFF;
-}
-.marketing-camila{
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-}
-.marketing-role{
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455; 
-}
-.daniel-wilson{
-    background-color: #FFFFFF;
-}
-
-.designer-daniel{
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-}
-.daniel-wilson{
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455; 
 }
 ul {
     list-style-type: none;
@@ -218,77 +130,6 @@ ul {
     letter-spacing: 0.02em;
     color: #434455;
 }
-.cashless-payment-title{
-    background-color: #FFFFFF;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2e2f42;   
-}
-.cashless-payment-description{
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-}
-.meditation-app-title{
-    background-color: #FFFFFF;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2e2f42; 
-}
-.meditation-app-description{
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;   
-}
-.taxi-service-title{
-    background-color: #FFFFFF;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2e2f42; 
-}
-.taxi-service-description{
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-}
-.screen-illustrations-title{
-    background-color: #FFFFFF;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2e2f42; 
-}
-.screen-illustrations-description{
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455; 
-}
-.online-curses-title{
-    background-color: #FFFFFF;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2e2f42; 
-}
-.online-curses-description{
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;    
-}
-
 .footer{
     background-color: #2e2f42;
 }
