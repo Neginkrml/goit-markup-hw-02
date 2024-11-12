@@ -111,10 +111,6 @@ body{
     letter-spacing: 0.02em;
     color: #434455;
 }
-ul {
-    list-style-type: none;
-    padding: 0;
-}
 .portfolio-about{
     font-size: 36px;
     line-height: 1.11;
