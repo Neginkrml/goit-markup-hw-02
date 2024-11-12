@@ -136,14 +136,26 @@ ul {
     letter-spacing: 0.02em;
     color: #434455;
 }
-.footer{
-    background-color: #f4f4fd;
+.footer-a{
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
 }
-.second-span{
+.f-footer{
+    background-color: #2e2f42;
+}
+.footer-span{
+    color:#f4f4fd
+}
+span{
     color: #f4f4fd;
 }
-.footer-end{
-    line-height: 1.5;  
-    color: #F4F4FD; 
+.p-footer{
+    line-height: 1.5;
+    color: #f4f4fd;
     letter-spacing: 0.02em;
 }
