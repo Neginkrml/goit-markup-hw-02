@@ -63,12 +63,12 @@ body{
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #ffffff;
-    cursor: pointer
+    cursor: pointer;
 }
-.intro-button :hover{
+.intro-section :hover{
     background-color: #404BBF;
 }
-.intro-button :focus{
+.intro-section :focus{
     background-color: #404BBF;
 }
 .about-title{
